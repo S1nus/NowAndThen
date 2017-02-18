@@ -1,0 +1,47 @@
+/*
+  Color Scheme: http://paletton.com/#uid=14c0u0kllllaFw0g0qFqFg0w0aF
+*/
+body {
+  background-color: #3F3075;
+  margin: 0;
+  padding: 0;
+}
+
+#topbar {
+  width: 100%;
+  height: 75px;
+  background-color: #5F5292;
+}
+
+#nav {
+  height: inherit;
+  display: table;
+  margin: 0 auto;
+}
+
+.option {
+  display: table-cell;
+  height: inherit;
+  padding: 0 30px;
+  opacity: .75;
+  background-color: #251758;
+  cursor: pointer;
+}
+.option:hover {
+  opacity: 1;
+}
+
+.option .bottom-line {
+  display: block;
+  width: inherit;
+  height: 5px;
+  background-color: white;
+  opacity: 0;
+}
+.option:hover .bottom-line {
+  opacity: 1;
+}
+
+.option img {
+  margin-top: 10px;
+}
